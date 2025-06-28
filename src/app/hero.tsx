@@ -51,8 +51,8 @@ function Hero() {
         <Image
           width={1024}
           height={1024}
-          alt="team work"
-          src={`${getImagePrefix()}image/image-7.svg`}
+          alt="profile"
+          src={`${getImagePrefix()}image/avatar1.png`}
           className="h-[36rem] w-full rounded-xl object-cover"
         />
       </div>

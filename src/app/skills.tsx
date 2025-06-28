@@ -52,7 +52,7 @@ const SKILLS = [
 
 export function Skills() {
   return (
-    <section className="px-8">
+    <section className="px-8 scroll-smooth" id="services">
       <div className="container mx-auto mb-20 text-center">
         <Typography color="blue-gray" className="mb-2 font-bold uppercase">
           Solutions I Provide

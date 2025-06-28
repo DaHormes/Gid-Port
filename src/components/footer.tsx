@@ -14,7 +14,20 @@ export function Footer() {
               DaHormes Design Studio. 
             </a>
           </Typography>
-          <ul className="flex gap-8 items-center">
+          <a href="#">
+            <Button color="gray">Top</Button>
+          </a>
+          
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;
+
+/*
+<ul className="flex gap-8 items-center">
             {LINKS.map((link) => (
               <li key={link}>
                 <Typography
@@ -27,12 +40,7 @@ export function Footer() {
                 </Typography>
               </li>
             ))}
-            <Button color="gray">subscribe</Button>
+            
           </ul>
-        </div>
-      </div>
-    </footer>
-  );
-}
 
-export default Footer;
+*/
