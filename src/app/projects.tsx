@@ -180,7 +180,7 @@ export function Projects() {
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
         >
-          Explore how I've helped businesses establish powerful digital presences.
+          Explore how I&apos;ve helped businesses establish powerful digital presences.
           Whether you have an online idea that needs to come to life or a
           website that requires a facelift, I&apos;m here to turn your digital
           dreams into reality. 

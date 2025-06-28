@@ -56,7 +56,7 @@ export function Resume() {
                 color="gray"
                 size="md"
               >
-                Let's Build Together
+                Let&apos;s Build Together
                 <ArrowRightIcon
                   strokeWidth={3}
                   className="h-3.5 w-3.5 text-gray ml-2 inline-block align-middle"
