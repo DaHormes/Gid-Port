@@ -10,9 +10,14 @@ export function Footer() {
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 border-t border-gray-200 py-6 md:justify-between">
           <Typography className="text-center font-normal !text-gray-700">
             &copy; {CURRENT_YEAR} Designed by{" "}
-            <a href="https://dahormes.com" target="_blank">
-              DaHormes Design Studio. 
-            </a>
+            <Typography>
+              <a
+                href="https://dahormes.com" 
+                target="_blank"
+              >
+                DaHormes Design Studio. 
+              </a>
+            </Typography>
           </Typography>
           <a href="#">
             <Button color="gray">Top</Button>

@@ -24,12 +24,12 @@ export function ProjectModal({ isOpen, onClose, project }: ProjectModalProps) {
       onClick={onClose}>
       <div className="relative bg-white w-full h-full max-w-4xl max-h-[90vh] overflow-y-auto p-8 rounded-lg md:m-4">
         {/* Close Icon */}
-        <button
+        <Button
           onClick={onClose}
           className="absolute top-4 right-4 text-gray-600 hover:text-gray-900"
         >
           <XMarkIcon className="h-8 w-8" />
-        </button>
+        </Button>
 
         {/* Modal Content */}
         <Typography variant="h3" color="blue-gray" className="mb-4">
