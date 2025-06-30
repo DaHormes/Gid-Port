@@ -9,7 +9,7 @@ import {
   EyeIcon,
   DocumentTextIcon,
 } from "@heroicons/react/24/solid";
-import { SkillCard } from "@/components";
+import { SkillCard } from "@/components/skill-card";
 
 const SKILLS = [
   {
@@ -50,7 +50,7 @@ const SKILLS = [
   },
 ];
 
-export function Skills() {
+function Skills() {
   return (
     <section className="px-8 scroll-smooth" id="services">
       <div className="container mx-auto mb-20 text-center">

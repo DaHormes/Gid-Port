@@ -10,7 +10,9 @@ import {
   Button,
   IconButton,
 } from "@material-tailwind/react";
-import { EnvelopeIcon, PhoneIcon, TicketIcon } from "@heroicons/react/24/solid";
+import { EnvelopeIcon, PhoneIcon} from "@heroicons/react/24/solid";
+//, TicketIcon 
+
 
 export function ContactForm() {
   return (
@@ -81,14 +83,6 @@ export function ContactForm() {
                   </svg>
                 </button>
               </div>
-              {/*
-              <div className="flex mb-10 gap-5">
-                <TicketIcon className="h-6 w-6 text-white" />
-                <Typography variant="h6" color="white" className="mb-2">
-                  Open Support Ticket
-                </Typography>
-              </div>
-              */}
               <div className="flex items-center gap-5">
                 <IconButton variant="text" color="white">
                   <i className="fa-brands fa-facebook text-lg" />
@@ -198,3 +192,14 @@ export function ContactForm() {
 }
 
 export default ContactForm;
+
+
+
+              {/*
+              <div className="flex mb-10 gap-5">
+                <TicketIcon className="h-6 w-6 text-white" />
+                <Typography variant="h6" color="white" className="mb-2">
+                  Open Support Ticket
+                </Typography>
+              </div>
+              */}

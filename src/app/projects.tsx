@@ -1,6 +1,6 @@
 "use client";
 
-import { ProjectCard } from "@/components";
+import { ProjectCard } from "@/components/project-card";
 import { Typography } from "@material-tailwind/react";
 import { getImagePrefix } from "../../utils/utils";
 
